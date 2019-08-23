@@ -1,12 +1,70 @@
-/* font-family: 'Open Sans', sans-serif; */
-/* font-family: 'Open Sans', sans-serif; */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 
-/*
-COLORS
-H1, Get answer button, text in input field: #2B4E80;
-Get answer button disabled: #607AA0;
-Get answer button hover: #1C3455;
-light blue background: #E6ECF4;
-clear button: #DE4841;
-clear button disabled: #D0CDCD
-*/
+h1 {
+  font-family: "Life Savers";
+  text-align: center;
+  color: #2B4E80;
+  margin: 35px 0px 35px 0px;
+  font-size: 50px;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+}
+
+.blue-background {
+  width: 450px;
+  height: 370px;
+  background-color: #E6ECF4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-box {
+  width: 405px;
+  height: 36px;
+  margin: 10px 12px 2px 19px;
+  text-align: center;
+  color: #2B4E80;
+  font-size: 18px;
+}
+
+.answer-button {
+  width: 411px;
+  height: 42px;
+  font-size: 18px;
+  background-color: #607AA0;
+  color: #FFFFFF;
+  margin: 0px 0px 0px 19px;
+
+}
+
+.eight-ball {
+  height: 120px;
+  width: 120px;
+  margin: 40px 0px 55px 0px;
+  /* margin: -27px 0px 53px 0px; */
+}
+
+.response-text {
+  display: none;
+}
+
+.clear-button {
+  margin: 7px 0px 0px 346px;
+  height: 30px;
+  width: 63px;
+  background-color: #CFCDCD;
+  color: #FFFFFF;
+  font-size: 17px;
+}
+
+.woody {
+  display:inline;
+  height: 370px;
+  margin: 0px 0px 0px 90px;
+}
